@@ -15,6 +15,7 @@ ddx = np.diff(dx)
 ddy = np.diff(dy)
 
 curvature = np.abs(dx[:-1] * ddy - dy[:-1] * ddx) / (dx[:-1]**2 + dy[:-1]**2)**1.5
+
 v_max = np.sqrt(g_limit* 9.81/ curvature)
 
 
