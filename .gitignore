@@ -1,0 +1,6 @@
+# Editor/temp lock files
+~$*
+*.tmp
+
+# Generated plot outputs (not committed — regenerate via scripts)
+*.png

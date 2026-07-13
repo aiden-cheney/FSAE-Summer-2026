@@ -28,7 +28,7 @@ void setup() {
 
   // create CSV file with headers
   SdFile myFile;
-  myFile.open("accel.csv", O_WRITE | O_CREAT);
+  myFile.open("accel.csv", O_WRITE | O_CREAT | O_APPEND);
   myFile.println("time,x_g,y_g,z_g");
   myFile.close();
 }
