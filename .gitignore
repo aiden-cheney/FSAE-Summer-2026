@@ -4,3 +4,6 @@
 
 # Generated plot outputs (not committed — regenerate via scripts)
 *.png
+
+# ANSYS Workbench solve/cache artifacts (regenerate via solve, not source)
+Upright/Upright_FEA__Mech_Files/
